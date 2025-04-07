@@ -69,7 +69,7 @@ Features:
 
 Example table format showing adjacent pairs and their sums:
 
-| ID 1 | Number 1 | ID 2 | Number 2 | Sum |
+| ID 1 | Route 1 | ID 2 | Route 2 | Sum |
 | ---- | -------- | ---- | -------- | --- |
 | 1    | 3        | 2    | 5        | 8   |
 | 2    | 5        | 3    | 7        | 12  |
@@ -82,7 +82,7 @@ Example table format showing adjacent pairs and their sums:
 Create an interactive form with the following requirements:
 
 - Class name selection via dropdown menu (restricted to Math, Science, History)
-- Grade input field (numeric, with built-in validation for range 0-100)
+- Route input field (numeric, with built-in validation for range 0-100)
 - Submit button
 
 Database Schema:
@@ -98,7 +98,7 @@ Implementation Requirements:
 1. Create a data table displaying:
     - ID
    - Class name
-   - Grade
+   - Route
 
 2. Implement filter controls:
    - "Show All Data" - Displays complete dataset without filtering
